@@ -1,0 +1,28 @@
+assignment
+
+add more fields: image
+category string
+label optional null if no value
+price string mongo-currency
+OK
+
+
+schema for promotions
+name
+image
+price
+description
+
+promoserver
+
+
+
+Leader
+
+name
+image
+designation
+abb
+description
+
+leaderserver

@@ -1,0 +1,28 @@
+create data dir --> mkdir data
+
+mongo daemon --> mongod --dbpath=data
+
+npm install mongodb --save
+npm install mongodb --save
+npm install assert --save
+
+REPL --> mongo
+
+start new db --> use DB_NAME 
+
+what db I'm on --> db
+
+db.help()
+
+db.COLLECTION.insert({name: "Uthapizza", description: "Test"})
+db.COLLECTION.find().pretty()
+
+> id
+> var id = new ObjectId()
+> id
+ObjectId("57b7de72b6c3ae4ac5bffb03")
+> id.getTimestamp()
+ISODate("2016-08-20T04:37:06Z")
+>
+> 57b7ddddb6c3ae4ac5bffb02.getTimestamp()
+2016-08-19T21:38:14.513-0700 E QUERY    [thread1] SyntaxError: identifier starts immediately after numeric literal @(shell):1:0

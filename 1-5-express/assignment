@@ -1,0 +1,10 @@
+- Separate Node Module named dishRouter.js will implement all the router config for: http://localhost:3000/dishes
+
+- Require this module in server.js and use it
+
+- promoRouter.js: /promotions
+
+- leaderRouter.js: /leadership
+
+
+
